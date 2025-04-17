@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qilong Pan - Academic Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+<header>
+    <div class="container">
+        <h1 class="name">Qilong Pan</h1>
+        <p class="tagline">PhD Candidate in Statistics and High Performance Computing</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#papers">Papers</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header> 
+    <!-- About Section -->
+<section id="about">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="icon.jpg" alt="Qilong Pan" class="profile-image">
+            </div>
+            <div class="about-text">
+                <p>I am a PhD candidate in Statistics and High Performance Computing at King Abdullah University of Science and Technology (KAUST). My research focuses on statistical methods and computational models in data science.</p>
+                <p> My research interests include but are not limited to: </p>
+                <ul>
+                    <li><strong>1. Statistical Learning</strong></li>
+                    <li><strong>2. High Performance Computing</strong></li>
+                    <li><strong>3. GPU acceleration</strong></li>
+                    <!-- <li><strong>4. LLM inference</strong></li> -->
+                </ul>
+                <a href="https://scholar.google.com/citations?user=YOUR_ID&user=_9r8L7UAAAAJ" target="_blank">
+                    <img src="images/gs.png" alt="Google Scholar" width="24">
+                  </a>                   
+            </div>
+        </div>
+    </div>
+</section> 
+    <!-- Papers Section -->
+<section id="papers">
+    <div class="container">
+        <h2 class="section-title">Publications & Preprints (Highlighted)</h2>
+        <div class="papers-list">
+            <!-- Include individual paper files -->
+<div class="paper-item">
+    <!-- Paper title -->
+    <h3>Block Vecchia Approximation for Scalable and Efficient Gaussian Process Computations</h3>
+    
+    <!-- Authors - edit as needed -->
+    <p class="paper-authors">Qilong Pan, Sameh Abdulah, Marc G. Genton, Ying Sun</p>
+    
+    <!-- Publication venue and year -->
+    <p class="paper-venue">Technometrics, 2025</p>
+    
+    <!-- Paper images -->
+    <div class="paper-image">
+        <img src="images/BV1.1.png" alt="Fast and accurate estimation log-likelihood" style="width: 30%;">
+        <img src="images/BV1.3.png" alt="Accurate estimation" style="width: 30%;">
+        <img src="images/BV1.2.png" alt="Estimation of parameters" style="width: 30%;">
+    </div>
+    
+    
+    <!-- Paper abstract -->
+    <p class="paper-abstract">We propose a block Vecchia approximation for scalable and efficient Gaussian process computations. Our approach leverages the Vecchia approximation to reduce the computational complexity of Gaussian process computations, allowing for faster and more efficient inference.</p>
+    
+    <!-- Paper links - edit URLs as needed -->
+    <div class="paper-links">
+        <a href="https://www.tandfonline.com/doi/full/10.1080/00401706.2025.2475784" target="_blank" class="paper-link"><i class="fas fa-file-pdf"></i> PDF</a>
+        <a href="https://github.com/kaust-es/ParallelBlockVecchiaGP" target="_blank" class="paper-link"><i class="fas fa-code"></i> Code</a>
+        <!-- <a href="#" target="_blank" class="paper-link"><i class="fas fa-link"></i> DOI</a> -->
+    </div>
+</div> 
+<div class="paper-item">
+    <!-- Paper title -->
+    <h3>GPU-Accelerated Vecchia Approximations of Gaussian Processes for Geospatial Data using Batched Matrix Computations</h3>
+    
+    <!-- Authors - edit as needed -->
+    <p class="paper-authors">Qilong Pan, Sameh Abdulah, Marc G. Genton, David E. Keyes, Hatem Ltaief, Ying Sun</p>
+    
+    <!-- Publication venue and year -->
+    <p class="paper-venue">ISC High Performance, 2024</p>
+    
+    <!-- Paper images -->
+    <div class="paper-image">
+        <img src="images/CV1.1.png" alt="Fast and accurate estimation log-likelihood" style="width: 40%;">
+        <img src="images/CV1.2.png" alt="Accurate estimation" style="width: 50%;">
+        <!-- <img src="images/CV1.3.png" alt="Estimation of parameters" style="width: 30%;"> -->
+    </div>
+    
+    
+    <!-- Paper abstract -->
+    <p class="paper-abstract">We propose a GPU-accelerated Vecchia approximation for scalable and efficient Gaussian process computations. The proposed framework using the KBLAS library is tested on NVIDIA V100/A100/H100 GPUs and achieves 800X to 1300X speedup compared to the ExaGeoStat (exact GPs) implementation. </p>
+    
+    <!-- Paper links - edit URLs as needed -->
+    <div class="paper-links">
+        <a href="https://ieeexplore.ieee.org/abstract/document/10528930" target="_blank" class="paper-link"><i class="fas fa-file-pdf"></i> PDF</a>
+        <a href="https://github.com/kaust-es/ParallelVecchiaGP" target="_blank" class="paper-link"><i class="fas fa-code"></i> Code</a>
+        <!-- <a href="#" target="_blank" class="paper-link"><i class="fas fa-link"></i> DOI</a> -->
+    </div>
+</div> 
+</div>            <!-- Add more paper includes as needed -->
+        </div>
+    </div>
+</section> 
+    <!-- Education Section -->
+<section id="education">
+    <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="education-item">
+            <h3>PhD in Statistics and High Performance Computing</h3>
+            <p class="institution">King Abdullah University of Science and Technology, KSA</p>
+            <p class="date">Sep 2021 - Present</p>
+        </div>
+        <div class="education-item">
+            <h3>B.S. in Statistics</h3>
+            <p class="institution">Wuhan University of Technology, China</p>
+            <p class="date">Sep 2017 - June 2021</p>
+        </div>
+        <div class="education-item">
+            <h3>B.A. in English (Dual Degree)</h3>
+            <p class="institution">Huazhong University of Science and Technology, China</p>
+            <p class="date">Jan 2019 - June 2021</p>
+        </div>
+    </div>
+</section> 
+    <!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-simple">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:qilong.pan AT kaust.edu.sa">qilong.pan AT kaust.edu.sa</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://linkedin.com/in/qilongpan" target="_blank">linkedin.com/in/qilongpan</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/Jack-Pan-ai" target="_blank">github.com/Jack-Pan-ai</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-globe"></i>
+                    <a href="https://jack-pan-ai.github.io" target="_blank">jack-pan-ai.github.io</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <p>&copy; 2025 QilongPan. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/qilongpan" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Jack-Pan-ai" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+</footer> 
+    <script src="script.js"></script>
+</body>
+</html> 

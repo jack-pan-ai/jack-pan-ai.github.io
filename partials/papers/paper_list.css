@@ -1,0 +1,155 @@
+/* Paper list styles */
+.paper-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.paper-item {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: var(--card-bg-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.paper-item:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--box-shadow-hover);
+}
+
+.paper-title {
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: var(--heading-color);
+}
+
+.paper-authors {
+    font-style: italic;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.paper-venue {
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+}
+
+.paper-abstract {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.paper-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.paper-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 12px;
+    background-color: var(--light-bg-color);
+    border-radius: 20px;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease;
+}
+
+.paper-link:hover {
+    background-color: var(--hover-color);
+}
+
+.paper-link i {
+    font-size: 1rem;
+}
+
+/* Citation section */
+.paper-citation {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: var(--light-bg-color);
+    border-radius: var(--border-radius);
+    font-family: monospace;
+    font-size: 0.9rem;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+/* Paper categories */
+.paper-category {
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 3px 10px;
+    background-color: var(--tag-bg-color);
+    border-radius: 15px;
+    font-size: 0.85rem;
+    color: var(--tag-text-color);
+}
+
+/* Filter controls */
+.paper-filters {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: var(--card-bg-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.filter-group {
+    margin-bottom: 15px;
+}
+
+.filter-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.filter-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.filter-option {
+    padding: 5px 12px;
+    background-color: var(--light-bg-color);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.filter-option:hover {
+    background-color: var(--hover-color);
+}
+
+.filter-option.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Search box */
+.paper-search {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+    background-color: var(--input-bg-color);
+    color: var(--text-color);
+}
+
+.paper-search:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+} 
